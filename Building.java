@@ -12,10 +12,10 @@ public class Building {
         this("<Name Unknown>", "<Address Unknown>", 1);
     }
 
-    /* Overloaded constructor with address only */
+    /* Overloaded constructor with address */
     public Building(String address) {
         this(); // Call default constructor
-        this.address = address; // Override address
+        this.address=address; // Override address
     }
 
     /* Overloaded constructor with name, address */
